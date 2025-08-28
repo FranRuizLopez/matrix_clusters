@@ -1,4 +1,6 @@
-
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from matrix_clusters.clusters_2d import count_clusters_2d
 # Example of 2D binary array (default threshold = 1)
